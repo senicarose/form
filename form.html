@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="form">
+		<p id="title">Catalog Form</p>
+		<p>Tired of old fashion footwear? Sign up now ..</p>
+		<p>Fill up the following.</p>
+		<form>
+			<table style="width:60%">
+				<tr>
+					<td>
+						<strong>First Name:</strong>	<input type="text" name="firstname" class="right"><br/>
+						<strong>Age:</strong>			<input type="number" name="age" class="right"><br/>
+						<strong>Home Address:</strong>	<input type="text" name="address" class="right"><br/>
+						<strong>Mobile:</strong>		<input type="number" name="number" class="right">
+					</td>
+					<td>
+						<strong>Last Name:</strong>		<input type="text" name="lastname" class="right"><br/>
+						<strong>Email Address:</strong>	<input type="email" name="email" class="right"><br/>
+						<strong>Birthday:</strong>		<input type="date" name="bday" class="right"><br/>
+						<strong style="padding-right:25px">Gender:</strong>	<input  type="radio" name="gender" value="male" checked><em>Male</em>
+														<input type="radio" name="gender" value="female"><em>Female</em>
+					</td>
+				</tr>
+			</table>
+			<br/><input class="submit" type="submit" value="Submit"><br/>
+		</form>
+	</div>
+
+	<div>	
+		<p>Select Item to Purchase</p>
+		<form>
+			<strong>Select Item:</strong>
+			<select>
+				<option value="men">Men's Footwear</option>
+				<option value="ladies">Lady's Footwear</option>
+			</select><br/>
+			<strong>Select Brand:</strong>
+			<select>
+				<option>Adiddas</option>
+				<option>Converse</option>
+				<option>Gibi</option>
+				<option>Nike</option>
+				<option>Vans</option>
+			</select><br>
+			<strong>Item Number:</strong>	<input type="number" name="item"><br/>
+			<strong>Quantity:</strong>		<input type="number" name="quantity"><br/>
+			<strong>Size:</strong>			<input type="number" name="size" min="35" max="42"><br/>
+			<strong>Color/s:</strong><br/>
+											<input type="checkbox" name="color">Black
+											<input type="checkbox" name="color">Black and Pink
+											<input type="checkbox" name="color">Black and Yellow
+											<input type="checkbox" name="color">Brown<br>
+											<input type="checkbox" name="color">Blue
+											<input type="checkbox" name="color">Blue Green
+											<input type="checkbox" name="color">Dark Blue
+											<input type="checkbox" name="color">Dirty White<br/>
+											<input type="checkbox" name="color">Gray
+											<input type="checkbox" name="color">Pink
+											<input type="checkbox" name="color">Pure Black
+											<input type="checkbox" name="color">Red<br/>
+											<input type="checkbox" name="color">Maroon
+											<input type="checkbox" name="color">Violet
+											<input type="checkbox" name="color">White	
+											<input type="checkbox" name="color">Yellow<br/>
+			<strong>Comment:</strong><br/>	<textarea></textarea><br/><br/>	
+											<input class="submit" type="submit" value="Submit">
+		</form>
+	</div>
+
+</body>
+</html>
