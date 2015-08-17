@@ -1,0 +1,34 @@
+html {
+	background-color: rgba(219, 229, 121, 0.98);
+}
+
+#title {
+	color: blue;
+	font: sans-serif;
+	font-weight: bolder;
+	font-style: bold;
+	font-size: 50px;
+}
+.right {
+	float: right;
+}
+
+strong {
+	font-size: 20px;
+	color: gray;
+}
+
+p {
+	color: green;
+	font-style: bold;
+	font-size: 30px;
+}
+
+.submit {
+	padding: 10px 20px;
+    border-radius: 15px;
+    border: 2px solid #a1a1a1;
+    font-size: medium;
+    font-weight: bolder;
+    color: #4C4747;
+}
